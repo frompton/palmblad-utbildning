@@ -1,0 +1,216 @@
+html {
+	height:101%;
+}
+body {
+	background: #fff;
+	font: 15px/1.5 Arial, sans-serif;
+}
+
+/*
+	LAYOUT
+*/
+.column{
+	float: left;
+	margin-left:20px;
+}
+.small-column{
+	width:250px;
+}
+.large-column{
+	width:690px
+}
+.first-column{
+	margin-left:0;
+}
+
+
+a{
+	color:#fc080a;
+	text-decoration:none;
+}
+p a {
+    text-decoration: underline;
+}
+h1, h2 {
+	font-size:23px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+h3,h4{
+	font-size: 17px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+
+#page-container{
+    width: 960px;
+    margin: 0 auto;
+		padding: 0;
+}
+#page-header {
+	position: relative;
+	padding: 20px 0;
+}
+#page-content{
+	padding-bottom: 80px;
+}
+#page-footer{
+	width: 100%;
+	padding: 20px 0;
+	border-top: 1px solid gray;
+}
+
+/* HEADER */
+#logo {
+	display: inline-block;
+}
+#logo a{
+
+	padding: 0;
+	margin: 0 40px 0 0;
+}
+#logo .tagline {
+	font-size: 14px;
+}
+#page-header h1,
+#page-header p {
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 38px;
+	margin: 0;
+}
+#top-nav {
+	display: block;
+	margin: 30px 0 20px;
+}
+#top-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#top-nav li {
+	display: inline-block;
+}
+#top-nav li a {
+	display: block;
+	padding: 10px 30px 15px 0;
+	text-align: right;
+	color: #555;
+}
+#top-nav li a:hover,
+#top-nav li a:focus,
+#top-nav li.current-menu-item a,
+#top-nav li.current-page-ancestor a{
+	color: #fc080a;
+	text-decoration: underline;
+	background: transparent url(../image/active.png) left bottom no-repeat;
+}
+
+/* CONTENT */
+.content {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+.content ul {
+	padding-left: 30px;
+}
+.content li {
+	line-height: 30px;
+}
+.header h2 {
+	font-size: 19px;
+}
+.featured-image {
+    float: right;
+    padding: 20px 0 10px 20px;
+}
+/* CONTACT */
+/* CONTACT */
+.wpcf7-form {
+	max-width: 400px;
+}
+.wpcf7-form label {
+	display: block;
+}
+.wpcf7-form input,
+.wpcf7-form textarea {
+	width: 320px;
+	padding: 4px 0;
+	text-indent: 4px;
+	border: 1px solid #888;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.wpcf7-form .form-checkbox input {
+	width: auto;
+}
+.wpcf7-form .form-zip {
+	width: 120px;
+	float: left;
+	margin: 0;
+}
+.wpcf7-form .form-city {
+	width: 200px;
+	float: left;
+	margin: 0;
+}
+.wpcf7-form .form-zip input {
+	width: 100px;
+}
+.wpcf7-form .form-city input {
+	width: 200px;
+}
+
+/* FOOTER */
+#page-footer p {
+	text-align: center;
+	font-size: 16px;
+
+}
+/* Clearfix
+-------------------------------- */
+.clear-children:after,
+.product:after {
+    clear: both;
+    display:block;
+    font-size: 0px;
+    line-height: 0;
+}
+.clear-children:after,
+.product:after {
+    content: '\0020';
+    height: 0;
+}
+*:first-child+html .clear-children,
+*:first-child+html .product {
+    display: inline-block;
+    /*hack for ie7*/
+}
+* html .clear-children,
+* html .product {
+    height: 1%;
+    /*hack for ie6*/
+}
+
+
+/* WP */
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.625em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.625em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
