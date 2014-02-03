@@ -16,6 +16,9 @@ body {
 .small-column{
 	width:250px;
 }
+.medium-column {
+	width: 470px;
+}
 .large-column{
 	width:690px
 }
@@ -54,6 +57,7 @@ h3,h4{
 	padding: 20px 0;
 }
 #page-content{
+	position: relative;
 	padding-bottom: 80px;
 }
 #page-footer{
@@ -176,7 +180,7 @@ h3,h4{
 .product:after {
     clear: both;
     display:block;
-    font-size: 0px;
+    font-size: 0;
     line-height: 0;
 }
 .clear-children:after,
@@ -213,4 +217,8 @@ h3,h4{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+div.alignright {
+	position: absolute;
+	right: 0;
 }
